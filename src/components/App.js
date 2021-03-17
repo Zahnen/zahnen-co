@@ -1,13 +1,19 @@
 import React from 'react';
 import Header from './Header';
 import Body from './Body';
-import '../App.css';
+
+const divStyle = {
+  display: 'flex',
+  flexDirection: 'row'
+};
 
 function App() {
   return (
     <>
-      <Header />
-      <Body />
+      <div style={divStyle}>
+        <Header />
+        <Body />
+      </div>
     </>
   );
 }

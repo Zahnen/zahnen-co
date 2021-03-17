@@ -11,23 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.header {
-	background: darkgray;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 30%;
-	height: 100%;
-	color: white;
-	font-family: sans-serif;
-	display: grid;
-	place-items: center;
-	padding: 5vw;
-  z-index: 10;
-}
-
-header h1 {
-	writing-mode: vertical-rl;
-	max-height: 20ch;
-}
