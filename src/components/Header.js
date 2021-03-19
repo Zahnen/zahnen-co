@@ -1,14 +1,16 @@
 import React from 'react';
 import ProfilePicture from '../img/zahnen2.jpg';
+import LinkedIn from '../img/linkedinmark.svg';
+import GitHub from '../img/githubmark.svg';
 
 const divStyle = {
-	backgroundColor: 'darkgray',
+	backgroundColor: 'white',
 	width: '40%',
-	height: '100vh'
+  textAlign: 'center'
 };
 
 const div2Style = {
-  marginTop: '35%'
+  marginTop: '35%',
 };
 
 function Header() {
@@ -16,14 +18,13 @@ function Header() {
     <>
       <div style={divStyle}>
         <div style={div2Style}>
-          <img src={ProfilePicture} alt="Zahnen" width="25%" style={{borderRadius: "50%"}} className="img-fluid"></img>
+          <img src={ProfilePicture} alt="Zahnen" width="35%" className="rounded mx-auto d-block"></img>
           <h1>I'm Zahnen, and I'm a baby developer.</h1>
-          <h3>I enjoy working collaboratively to bring ideas to life in digital spaces.</h3>
           <button className="btn btn-outline-dark rounded-pill">Let's Connect</button>
         </div>
         <div>
-          <p>Github: @Zahnen</p>
-          <p>LinkedIn: @Zahnen</p>
+          <img src={GitHub} alt="GitHub Logo" href="https://github.com/Zahnen" />
+          <img src={LinkedIn} alt="LinkedIn Logo" href="https://www.linkedin.com/in/zahnen/" />
         </div>
       </div>
     </>
