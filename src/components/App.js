@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Body from './Body';
+import Links from './Links';
 
 const divStyle = {
   display: 'flex',
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <Body />
       </div>
+      <Links />
     </>
   );
 }
