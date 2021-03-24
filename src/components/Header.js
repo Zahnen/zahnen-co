@@ -1,5 +1,5 @@
 import React from 'react';
-import Connect from '../img/connect.svg';
+import Connect from '../img/letsconnect.png';
 
 const divStyle = {
 	backgroundColor: '#f6eee3',
@@ -8,7 +8,7 @@ const divStyle = {
 };
 
 const div2Style = {
-  marginTop: '35%',
+  marginTop: '25%',
 };
 
 function Header() {
@@ -18,9 +18,7 @@ function Header() {
         <div style={div2Style}>
           <p style={{fontSize: '62px', fontWeight: 'bold'}}>I'm Zahnen,</p>
           <h1>and I'm a baby developer.</h1>
-        </div>
-        <div>
-          <a href="mailto:hello@zahnen.co" target="_blank" rel="noreferrer"><img src={Connect} alt="Say Hi" /></a>
+          <a href="mailto:hello@zahnen.co" target="_blank" rel="noreferrer"><img className="icon" src={Connect} alt="Say Hi"style={{width: "55%", marginTop: '3%'}} /></a>
         </div>
       </div>
     </>

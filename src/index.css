@@ -33,3 +33,7 @@ a:hover {
   text-decoration: underline;
   color: black;
 }
+
+.icon:hover {
+  filter: invert(2) sepia(1) hue-rotate(200deg);
+}
