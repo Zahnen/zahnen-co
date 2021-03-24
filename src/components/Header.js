@@ -1,9 +1,8 @@
 import React from 'react';
-import ProfilePicture from '../img/zahnen2.jpg';
 import Connect from '../img/connect.svg';
 
 const divStyle = {
-	backgroundColor: 'white',
+	backgroundColor: '#f6eee3',
 	width: '40%',
   textAlign: 'center'
 };
@@ -17,8 +16,8 @@ function Header() {
     <>
       <div style={divStyle}>
         <div style={div2Style}>
-          <img src={ProfilePicture} alt="Zahnen" width="35%" className="rounded mx-auto d-block"></img>
-          <h1>I'm Zahnen, and I'm a baby developer.</h1>
+          <p style={{fontSize: '62px', fontWeight: 'bold'}}>I'm Zahnen,</p>
+          <h1>and I'm a baby developer.</h1>
         </div>
         <div>
           <a href="mailto:hello@zahnen.co" target="_blank" rel="noreferrer"><img src={Connect} alt="Say Hi" /></a>
