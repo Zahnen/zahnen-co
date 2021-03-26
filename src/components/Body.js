@@ -4,7 +4,8 @@ import Projects from './Projects';
 import Tech from './Tech';
 import About from './About';
 import Personal from './Personal';
-import Arrow from './Arrow';
+import NavArrow from '../img/navarrow.svg';
+
 
 
 class Body extends React.Component {
@@ -17,10 +18,10 @@ class Body extends React.Component {
               <About />
             </ParallaxLayer>
             <ParallaxLayer offset={.7} speed={-0.1}>
-              <Arrow />
+              <img src={NavArrow} alt="Navigation Arrow Pointing Down" style={{marginRight: '1%'}}/>
             </ParallaxLayer>
             <ParallaxLayer offset={.8} speed={.6}>
-              <div style={{marginTop: '15%', width: "60%"}}>
+              <div style={{marginTop: '10%', width: "60%"}}>
                 <Tech />
               </div>
             </ParallaxLayer>
